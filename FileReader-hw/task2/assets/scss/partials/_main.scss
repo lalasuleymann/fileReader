@@ -1,0 +1,47 @@
+.container{
+    overflow: hidden;
+    margin: 40px;
+    .tab{
+        float: left;
+    }
+    .tab-2 {
+        margin-left: 50px;
+        form{
+            margin-left: 40px;
+            input{
+                width: 200px;
+            }
+            label{
+                display: block;
+                margin-top: 5px;
+                margin-bottom: 10px;
+            }
+            #file{
+                display: none;
+            }
+            i{
+                margin: 10px;
+                margin-top: 20px;
+                margin-left: 85px;
+                font-size: 30px;
+                color: green;
+            }
+        }
+        button{
+            width: 80px;
+            // float: right;
+            margin-left: 40px;
+            margin-top: 15px;
+        }
+        .image-wrapper{
+            width: 200px;
+        }
+    }
+    tr{
+        transition:all .25s ease-in-out;
+        &:hover{
+            background-color:#EEE;
+            cursor: pointer;
+        }
+    }
+}

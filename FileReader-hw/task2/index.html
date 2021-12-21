@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/77345fa02c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="tab tab-1">
+            <table id="table" border="1">
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Salary</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td>Lala</td>
+                    <td>Suleymanova</td>
+                    <td>555</td>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td>Lala</td>
+                    <td>Suleymanova</td>
+                    <td>555</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Lala</td>
+                    <td>Suleymanova</td>
+                    <td>555</td>
+                    <td></td>
+                </tr>
+                </tr>
+            </table>
+            </div>
+        <div class="tab tab-2">
+            <form>
+                <label for="fname">First Name</label>
+                <input type="text" name="fname" id="fname"> <br>
+                <label for="lname">Last Name</label>
+                <input type="text" name="lname" id="lname"> <br>
+                <label for="ssalary">Salary</label>
+                <input type="number" name="salary" id="salary"> <br>
+                <i class="fas fa-cloud-upload-alt"></i>
+                <input type="file" name="file" id="file" multiple/>
+            </form>
+            
+            <button onclick="addHtmlTableRow();">Add</button>
+            <button onclick="editHtmlTbleSelectedRow();">Edit</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="popup">
+            <div class="close">
+                <div class="inner">
+                    <div class="image-wrapper"></div>   
+                    <div class="close-icon">
+                        <i class="far fa-times-circle"></i>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+</html>
